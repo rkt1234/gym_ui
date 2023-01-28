@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/70/27/57/360_F_270275705_Ja0uASDTp5tCasU2amYLOMvUBT0Qv7m5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    background-color: grey;
+}
+
+.logo {
+    color: red;
+    content: url("https://thumbs.dreamstime.com/b/gym-logo-fitness-center-design-template-black-barbell-isolated-white-background-vector-103252465.jpg");
+    height: 80px;
+    margin-right: 10px;
+
+}
+
+.form
+{
+
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    margin-left: 80px;
+    margin-top: 60px;
+    font-size:  30px;
+    border: 5px solid grey;
+}
+.data
+{
+    margin-top: 40px;
+    padding: 20px;
+}
+.heading
+{
+    color: rgb(126, 65, 65);
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: red;
+}
+input
+{
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+    border: 2px solid grey;
+    background-color: transparent;
+    
+}
+::placeholder
+{
+    color: cyan;
+}
